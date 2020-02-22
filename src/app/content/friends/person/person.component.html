@@ -1,0 +1,18 @@
+<div class="comp3">
+  <div *ngIf="person != undefined"> 
+    <h1>{{person.fname}} {{person.lname}}</h1>
+    <q *ngIf="person.quote != undefined"> {{person.quote}} </q><br>
+    <b *ngIf="person.status != undefined"> ( {{person.status}} )</b>
+    <hr>
+    <span *ngIf="person.date != undefined">Birth date: <b>{{person.date | date:'dd.MM.yyyy'}}</b></span><br>
+    <span *ngIf="person.ocupation != undefined">Ocupation: <b>{{person.ocupation}}</b></span>
+
+
+  </div>
+  <h1 *ngIf="person == undefined"> Chosen person dosn't have ID</h1>
+  <div id="mdiv" [routerLink]="['/friends']">
+    <div class="mdiv">
+      <div class="md"></div>
+    </div>
+  </div>
+</div>

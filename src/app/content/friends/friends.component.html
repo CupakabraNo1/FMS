@@ -1,0 +1,14 @@
+<table class="table">
+    <thead>
+      <th>First name</th>
+      <th>Last name</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let person of getPeople()" [routerLink]="['person', person.id]">
+        <td>{{person.fname}}</td>
+        <td>{{person.lname}}</td>
+      </tr>
+    </tbody>
+  </table>
+<router-outlet></router-outlet>
+  

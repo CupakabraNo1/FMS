@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}  
+
+.navbar{
+    position: fixed;
+    z-index:1;
+
+    top:0px;
+    left:0px;
+    right:0px;
+    
+    height:50px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    
+    
+    .navigation{
+        flex: 11;
+        display: flex;
+        justify-content: flex-end;
+
+
+        a{
+            text-decoration: none;
+            color: black;
+            width: 130px; 
+            height: 100%; 
+            padding-top: 15px;  
+            text-align: center;
+            vertical-align: middle;
+
+        }
+
+        :hover{
+            background-color: lightcyan;
+        }
+    }
+
+    .logo{
+        flex:1;
+        margin: 5px 5px;
+        background-image: url(../../assets/images/tree.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

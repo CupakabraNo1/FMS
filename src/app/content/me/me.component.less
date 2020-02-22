@@ -1,0 +1,100 @@
+mat-card{
+    
+    color:black;
+    background-color: lightblue;
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    padding: 5px;
+
+    *{
+        margin: 10px;
+        color: black;
+    }
+
+    
+    .content{
+        margin:0px !important;
+        text-align: initial;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        mat-card-title{
+            text-align: center;
+            font-size: 32px;
+            color:lightseagreen;
+        }
+        mat-card-subtitle{
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+
+        img{
+            height:250px;
+            width:250px;
+            border-radius:150px;
+            margin:0px 50px;
+            border: 5px solid lightseagreen;
+        }
+
+        mat-card-content{
+            line-height: 2;
+            vertical-align: middle;
+            font-size: 16px;
+            flex:3;
+            margin:20px;
+
+            .socm{
+                border: 5px solid lightseagreen;
+                border-radius: 10px;
+                background-color: lightcyan;
+                
+                display: flex;
+                justify-content: space-around;
+        
+               
+                .media{
+                    // text-justify: center;
+                    div{
+                        margin:auto;
+                        width:50px;
+                        height:50px;
+                        text-justify: center;
+                    }
+
+                    #git{
+                        transform: scale(0.8);
+                        background-image: url(../../../assets/images/github.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+            
+                    #insta{
+                        background-image: url(../../../assets/images/instagram.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;    
+                    }
+            
+                    #linked{
+                        background-image: url(../../../assets/images/linkedin.png);
+                        background-size: contain;
+                        background-repeat: no-repeat; 
+                    }
+            
+                    #linked:hover,#insta:hover{
+                        transform: scale(1.2);
+                    }
+                    #git:hover{
+                        transform: scale(1);
+                    }
+                
+                }
+        
+                
+        
+            }
+        }
+    }
+    
+}
