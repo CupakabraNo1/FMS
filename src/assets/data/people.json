@@ -1,9 +1,8 @@
 {
   "people":[
-    {"id":0, "fname":"Vladimir", "lname":"Novakovic", "date": "1998-11-24", "ocupation":"software developer", "status":"owner", "quote":"Ti se samo smej, a ja sa time zivim!"},
     {"id":1, "fname":"Andreja", "lname":"Simic", "date": "1998-02-25", "ocupation":"student", "status":"girlfriend", "quote":"A Vladimireee, ti mene stalno udaras!!!"},
-    {"id":2, "fname":"Aleksa", "lname":"Novkovic", "date": "1998-09-16", "ocupation":"student", "status":"roommate", "quote":"Pazi bas, jebote."},
-    {"id":3, "fname":"Jovan", "lname":"Trkulja", "date": "1998-10-13", "ocupation":"intern", "status":"illegal roommate", "quote":"Ne ti reci, ja cu otici..."},
-    {"id":4, "fname":"Aleksa", "lname":"Vasiljevic", "date": "1998-04-29", "ocupation":"student/model/swimer", "status":"gay best friend", "quote":"Pa po toj logici mogao bi i devojku malo da pozovem?"}
+    {"id":2, "fname":"Aleksa", "lname":"Novkovic", "date": "1998-09-16", "ocupation":"student", "status":"roommate", "quote":"Pazi baš, jebote."},
+    {"id":3, "fname":"Jovan", "lname":"Trkulja", "date": "1998-10-13", "ocupation":"intern", "status":"illegal roommate", "quote":"Ne ti reci, ja ću otići..."},
+    {"id":4, "fname":"Aleksa", "lname":"Vasiljevic", "date": "1998-04-29", "ocupation":"student/model/swimer", "status":"gay best friend", "quote":"Pa po toj logici mogao bih i devojku malo da pozovem?"}
   ]
 }

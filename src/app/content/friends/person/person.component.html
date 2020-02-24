@@ -10,7 +10,10 @@
 
   </div>
   <h1 *ngIf="person == undefined"> Chosen person dosn't have ID</h1>
-  <div id="mdiv" [routerLink]="['/friends']">
+  <div id="mdiv2" [routerLink]="['/edit', person.id]">>
+    <div id="pic"></div>
+  </div>
+  <div id="mdiv1" [routerLink]="['/friends']">
     <div class="mdiv">
       <div class="md"></div>
     </div>
